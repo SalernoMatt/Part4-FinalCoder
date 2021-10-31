@@ -1,0 +1,51 @@
+/*MAIN INDEX*/
+#portada{
+    height: auto;
+    background-size: cover;
+}
+.main-col{
+    float:none;
+    padding: 40px;
+}
+.carousel{
+    padding-top: 3rem;
+}
+.contact-item{
+    background-color: $bgF;
+    text-align: center;
+
+    padding: 1rem 0;
+    p{
+        font-size: 18px;
+    }   
+}
+.contact-item ul {
+    margin: 0px;
+    padding: 0px;
+}
+.contact-item ul li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.contact-item ul li a {
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px;
+    background-color: #4e4e4e;
+    text-decoration: none;
+    border-radius: 50%;
+    display: block;
+}
+.contact-item ul li a i {
+    cursor: pointer; 
+    color: #ffffff;    
+    line-height: 50px;
+    font-size: 22px;
+    transition: all 0.4s; 
+}
+.contact-item a:hover i {
+    color: #dd69ad;
+    font-size: 28px;
+    
+}

@@ -1,0 +1,26 @@
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: center;
+}
+header nav .Menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+  
+.Menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+  
+.Menu li a:hover {
+    background-color: white;
+    color: rgb(196, 92, 149);
+    padding: 20px;
+}

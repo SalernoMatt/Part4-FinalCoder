@@ -1,0 +1,272 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(221, 202, 228, 0.89);
+  font-family: oswald, sans-serif;
+  color: #161616;
+}
+
+h1, h2, h3, h4 {
+  font-family: muli, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: oswald, sans-serif;
+}
+
+#titPrincipal {
+  margin: 3rem;
+  padding: 1.5rem;
+  font-size: 3rem;
+}
+
+/*HEADER*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav .Menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+.Menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.Menu li a:hover {
+  background-color: white;
+  color: #c45c95;
+  padding: 20px;
+}
+
+/*MAIN INDEX*/
+#portada {
+  height: auto;
+  background-size: cover;
+}
+
+.main-col {
+  float: none;
+  padding: 40px;
+}
+
+.carousel {
+  padding-top: 3rem;
+}
+
+.contact-item {
+  background-color: #bdacc9;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.contact-item p {
+  font-size: 18px;
+}
+
+.contact-item ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact-item ul li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.contact-item ul li a {
+  width: 50px;
+  height: 50px;
+  margin: 10px 5px;
+  background-color: #4e4e4e;
+  text-decoration: none;
+  border-radius: 50%;
+  display: block;
+}
+
+.contact-item ul li a i {
+  cursor: pointer;
+  color: #ffffff;
+  line-height: 50px;
+  font-size: 22px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact-item a:hover i {
+  color: #dd69ad;
+  font-size: 28px;
+}
+
+/*NOSOTROS*/
+#aboutus h2, #aboutus h3 {
+  padding: 0rem;
+  margin: 5rem;
+}
+
+#aboutus h2 img .carousel, #aboutus h3 img .carousel {
+  border-radius: 100%;
+}
+
+.aboutus-col {
+  padding: 20px;
+}
+
+/*FAQ*/
+#fondo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem;
+  background-image: url(img/fond.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*TIENDA*/
+.body-tienda main {
+  margin: 2rem;
+}
+
+.tienda {
+  background-color: #bdacc9;
+  text-align: center;
+  padding: 2rem;
+  margin: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tienda article {
+  color: blanchedalmond;
+  margin: 2rem;
+  font-size: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 0.5rem;
+}
+
+.tienda img {
+  width: 300px;
+  height: 300px;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.tienda .descripcion {
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.tienda .precio {
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+.tienda button {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  padding: 0.5rem;
+}
+
+.product-custom-links {
+  padding: 20px 0;
+  color: #000000;
+}
+
+.product-custom-links ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.product-custom-links li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.product-custom-links ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.product-custom-links a:hover {
+  opacity: 1;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#fondo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem;
+  background-image: url(img/fondo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
